@@ -114,6 +114,8 @@
       display(y, m);
     });
     document.getElementById('today').addEventListener('click', () => {
+      y = year;
+      m = month;
       display(year, month);
     });
   }
